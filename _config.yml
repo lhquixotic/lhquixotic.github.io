@@ -22,8 +22,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Huiqian LI"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Tsinghua University"
+  avatar           : "images/android-chrome-192x192.png"
+  bio              : "School of Vehicle and Mobility, Tsinghua University"
   location         : "Beijing, China"
   employer         :
   pubmed           : 
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "lhquixotic"
   google_plus      :
   keybase          :
   instagram        :
