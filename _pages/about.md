@@ -21,14 +21,14 @@ Hi! I am Huiqian Li, and here is my personal website. I am currently a Ph.D stud
 
 If you want to get in touch, contact me at: lihq20@mails.tsinghua.edu.cn
 
-# 🔥 News
+<!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1"> -->
 
 [Stochastic pedestrian avoidance for autonomous vehicles Using hybrid reinforcement learning.](https://jzus.zju.edu.cn/iparticle.php?doi=10.1631/FITEE.2200128) *Front Inform Technol Electron Eng*. 2023 24(1): 131-140. doi:10.1631/FITEE.2200128
 
@@ -46,8 +46,9 @@ If you want to get in touch, contact me at: lihq20@mails.tsinghua.edu.cn
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.10* Excellent Fisrt-class Scholarship of Tsinghua University
+- *2020.07* Excellent Graduate in Beijing and Beijing University of Technology
+- *2018.10 & 2020.10* Champion of Formula Student Autonomous China (FSAC)
 
 # 📖 Educations
 - *2020.09 - 2025.06 (now)*, *PhD candidate* in Mechanical Engineering, School of Vehicle and Mobility, Tsinghua University, Beijing, China. 
