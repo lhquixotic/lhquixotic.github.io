@@ -1,0 +1,242 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS 
+%----------------------------------------------------------------------------------------
+ 
+\documentclass{resume} % Use the custom resume.cls style 
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorlinks,linkcolor=red]{hyperref}
+\usepackage{fontawesome}
+\usepackage[left=0.4 in,top=0.3 in,right=0.4 in,bottom=0.3in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Huiqian Li} % Your name 
+\address{\faMapMarker~Automotive Crash Laboratory, Tsinghua university, Haidian District, Beijing 100084, China} % Your address 
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional) 
+\address{{\faPhone}~ +86 199 3709 3760 ~~ {\faEnvelope}~\url{lihq20@mails.tsinghua.edu.cn}}
+\address{{Github}:~\href{https://github.com/lhquixotic}{\faGithub}~~~Website:~\href{https://lhquixotic.github.io/}{\faHome}~ResearchGate:~~~\href{https://www.researchgate.net/profile/Li-Huiqian}{\faUser}} % Your phone number and email
+
+
+\definecolor{TsinghuaPurple}{cmyk}{0.58,0.90,0,0}
+\renewenvironment{rSection}[1]{
+\sectionskip
+\textcolor{TsinghuaPurple}{\MakeUppercase{#1}}
+\sectionlineskip
+\hrule
+\begin{list}{}{
+%\setlength{\leftmargin}{1.5em}
+\setlength{\leftmargin}{0em}
+}
+\item[]
+}{
+\end{list}
+}
+
+
+\begin{document}  
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf \href{https://www.tsinghua.edu.cn/en/}{Tsinghua university}, Beijing, China} \hfill {August 2020 - Present}
+\\ 
+\textit{PhD candidate} in Mechanical Engineering, School of Vehicle and Mobility
+\\
+Supervised by \href{https://en.cae.cn/cae/html/en/col2017/column_2017_1.html}{Zhihua Zhong} 
+
+{\bf \href{https://english.bit.edu.cn/}{Beijing Institute of Technology}, Beijing, China} \hfill {August 2016 - July 2020}
+\\ 
+\textit{B.S.} in Automotive Engineering, School of Mechanical Engineering
+\\
+GPA: 92.4/100 Rank: 2/133
+
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	Research Interests
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research INTERESTS}
+
+\begin{rSubsection}{Trustworthy Artificial Intelligence in Autonomous Driving}{}{}
+
+\item Safe and explainable AI decision-making algorithms
+\item Evaluation of trustworthiness for AI decision-making
+\item Model-based reinforcement learning 
+\item Active inference theory and its application in autonomous driving
+\end{rSubsection}  
+
+\begin{rSubsection}{Decision-Making and Control in Autonomous Driving}{}{}
+
+\item Pedestrian avoidance decision-making
+\item Robust and adaptive path tracking control  
+\item Autonomous driving platoon control
+\end{rSubsection}  
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Technical Skills
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }  
+Programming Languages & Python = Matlab/Simulink = C $>$ C++\\
+Platform & Linux\\
+Software & Pytorch, CARLA, CarSim/TruckSim, ROS, Cyber RT
+
+\end{tabular}   
+
+\end{rSection}
+
+%--------------------------------------------------------------------------------------
+%   Research Publications 
+%--------------------------------------------------------------------------------------
+\begin{rSection}{ Research Publication } \itemsep -3pt        
+ {\textbf{Li H}, Huang J, \textit{et al.}. Adaptive robust path tracking control for autonomous vehicles with measurement noise. \textit{Int J Robust Nonlinear Control}. 2022; 32( 13): 7319– 7335. doi:10.1002/rnc.6218 \href{https://onlinelibrary.wiley.com/doi/10.1002/rnc.6218}{\faExternalLink}} \hfill May 2022 
+ 
+{\textbf{Li H}, Huang J, \textit{et al.} Stochastic pedestrian avoidance for autonomous vehicles Using hybrid reinforcement learning. \textit{Front Inform Technol Electron Eng}. 2023; 24(1): 131-140. doi:10.1631/FITEE.2200128 \href{https://jzus.zju.edu.cn/iparticle.php?doi=10.1631/FITEE.2200128}{\faExternalLink} \hfill January 2023
+
+{\textbf{Li H}, Tian J, \textit{et al.} Towards Trustworthy Decision-Making for Autonomous Vehicle: Survey and Challenges. (\textbf{\textit{Submitted}})}}
+ 
+\end{rSection}
+
+%-------------------------------------------------------------------------------
+%	PROJECTS
+
+\begin{rSection}{PROJECTS}
+
+\begin{rSubsection}{Autonomous Driving Truck Platoon Control Algorithm Development} {June 2020 - August 2021}{}{}
+
+\item Software platform building based on Baidu Apollo platform, decision-making and lateral and longitudinal control algorithms development.
+\item Vehicle-to-vehicle (V2V) communication code development using Ultra Wide Band (UWB) device and V2X device.
+\item Two-vehicle autonomous driving platoon test and the maximum speed up to 70km/h.
+ 
+\end{rSubsection}  
+
+%------------------------------------------------
+
+\begin{rSubsection}{Autonomous Driving Express Vehicle Development}{October 2021 - January 2022}{}{} 
+\item Software platform building based on ROS, path tracking control algorithm development.
+\item Obstacle detection and avoidance based on LiDAR points.
+
+\end{rSubsection}
+
+\end{rSection} 
+
+
+%	INTERNSHIP/TRAININGS 
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{INTERNSHIP/TRAININGS} \itemsep -3pt  
+
+{\textbf{Autonomous Driving Platoon Development Internship}, \\ Tong-Tsing-Hu Collaborative Innovation Center, Qingdao International Academician Park,\\ Qingdao, Shandong, China}  \hfill  June 2020 - August 2021 \\
+\textbf{\textit{Experience}}
+Hardware platforms development and planning and control algorithms development based on Baidu Apollo platform using C++.
+\\
+{\textbf{Beijing Institute of Technology Driverless Racing Team}, 
+\\Beijing Institute of Technology, Beijing, China} \hfill August 2018 - August 2020 \\     
+\textbf{\textit{Experience}} Vehicle Control Unit (VCU) hardware development and control algorithm development through Matlab/Simulink code generation.
+
+\end{rSection}  
+ 
+ %-----------------------------------------------------------------------------
+ % POSITION OF RESPONSIBILITY
+ %-----------------------------------------------------------------------------
+  
+% \begin{rSection}{POSITION OF RESPONSIBILITY}
+
+% \begin{rSubsection}{CAE and Powertrain Lead, Formula SAE}{August 2015 - Present}{GT Motorsports,a Formula Student Team of GTU}{}              
+% \item Devised the design objectives and validation of designs through simulations and testings
+% \item Concentrated on real time simulation of Exhaust System and the noise reduction of Exhaust system
+% \item Part of core Design group in the team helping with various design decisions  
+% \item Performed numerous simulations of various components of the car in the area of FEA and CFD segments with documentations   
+% \end{rSubsection}  
+
+%------------------------------------------------
+
+% \begin{rSubsection}{Head coordinator of Mechanical section at Robotics club} {July 2015 - May 2016}{Sanjaybhai Rajguru College of Engineering}{} 
+% \item A college level Robotics club established by students with the aim of learning and professional skill development \\among students and peers            
+% \item Lead in Mechanical work of Robotics club, working mostly with CAD and Hardware systems
+% \item Team leader and active member working to develop various robots of different concepts and configurations     
+% \end{rSubsection}
+
+% \end{rSection}
+  
+
+%--------------------------------------------------------------------------------------
+% Extra-Cirrucular
+%--------------------------------------------------------------------------------------
+
+% \begin{rSection}{Extra-Cirrucular} \itemsep -2pt   
+
+% \begin{itemize}
+ 
+% \item STTP on \textbf{Life Long Research} under TEQIP-II, SVNIT, Surat \hfill February 2016 
+% \item Participated in \textbf{Formula Student India}, An International FSAE competition,  
+% \\Secured 9th rank overall \& 4th in Endurance \hfill January 2016  
+% \item Seminar on \textbf{Introduction to Robotics and Arduino Programming}, SRCOE,Rajkot \hfill July 2015 
+% \item \textbf{Junkyard}, BRIZINGER'15, a National Level Techfest,  GEC, Rajkot \hfill March-2015
+% \item Seminar on \textbf{Rapid Prototyping}, COGNIZANCE 2K14, a National Level Technical Festival, \\CSPIT, Charotar  \hfill September-2014   
+% \item \textbf{Rise of Machine}, PRAKARSH 9.0, a National Level Technical Symposium, SVIT, Vasad \hfill March-2014  
+  
+% \end{itemize}  
+
+
+% \end{rSection} 
+
+
+%---------------------------------------------------------------------------------
+%  Honors/Awards
+%--------------------------------------------------------------------------------
+
+
+\begin{rSection}{Honors/Awards} \itemsep -2pt
+{Excellent First-class Scholarship of Tsinghua University }\hfill {\em October 2022} \\
+{Excellent Communist Youth League Members of Tsinghua University}\hfill {\em September 2021} \\
+{Excellent Graduate in Beijing} \hfill {\em July 2020} \\
+{Excellent Graduate of Beijing Institute of Technology}\hfill {\em July 2020}\\
+{Champion of Formula Student Autonomous China (FSAC) }\hfill {\em October 2018}\\
+{Second Prize in China Undergraduate Mathematical Contest in Modeling (\href{http://en.mcm.edu.cn/}{CUMCM})} \hfill {\em October 2018} \\
+{Merit Student in Beijing} \hfill{\em May 2018}\\
+{National Scholarship} \hfill{\em October 2017}
+\end{rSection}
+
+
+%---------------------------------------------------------------------------------
+%  DECLARATION
+%--------------------------------------------------------------------------------
+
+\begin{rSection}{ Declaration  } \itemsep -3pt        
+
+\item I hereby declare that all the details furnished above are true to the best of my knowledge and belief.   
+  
+\end{rSection}
+\end{document}

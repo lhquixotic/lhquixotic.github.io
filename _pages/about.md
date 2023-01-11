@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am Huiqian Li, and here is my personal website. I am currently a Ph.D student in School of Vehicle and Mobility, Tsinghua University. My research topic includes autonomous driving decision-making and active inference.
+Hi! I am Huiqian Li, and here is my personal website. I am currently a Ph.D student in School of Vehicle and Mobility, Tsinghua University. My research topic includes autonomous driving decision-making and trustworthy artifitial intelligence.
 
-If you want to get in touch, contact me at: lihq20@mails.tsinghua.edu.cn
+Here is my [CV](../files/cv/en/main.pdf). If you want to get in touch, contact me at: lihq20@mails.tsinghua.edu.cn
 
 <!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
