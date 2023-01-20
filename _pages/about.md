@@ -30,11 +30,11 @@ Here is my [CV](../files/cv/en/main.pdf). If you want to get in touch, contact m
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> -->
 
-[Stochastic pedestrian avoidance for autonomous vehicles Using hybrid reinforcement learning.](https://jzus.zju.edu.cn/iparticle.php?doi=10.1631/FITEE.2200128) *Front Inform Technol Electron Eng*. 2023 24(1): 131-140. doi:10.1631/FITEE.2200128
+[Stochastic pedestrian avoidance for autonomous vehicles Using hybrid reinforcement learning.](../files/publications/FITEE.pdf) *Front Inform Technol Electron Eng*. 2023 24(1): 131-140. doi:10.1631/FITEE.2200128
 
 **Huiqian Li**, Huang Jin, *et al.*
 
-[Adaptive robust path tracking control for autonomous vehicles with measurement noise.](https://onlinelibrary.wiley.com/doi/10.1002/rnc.6218) *Int J Robust Nonlinear Control*. 2022; 32(13): 7319– 7335. doi:10.1002/rnc.6218
+[Adaptive robust path tracking control for autonomous vehicles with measurement noise.](../files/publications/IJNRC.pdf) *Int J Robust Nonlinear Control*. 2022; 32(13): 7319– 7335. doi:10.1002/rnc.6218
 
 **Huiqian Li**, Huang Jin, *et al.*
 
